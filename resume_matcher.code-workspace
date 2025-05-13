@@ -1,0 +1,23 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "python.formatting.provider": "none",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    },
+    "[python]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "black-formatter.path": ["python3", "-m", "black"],
+    "black-formatter.args": ["--line-length", "100"],
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.defaultInterpreterPath": "/usr/local/bin/python3"
+  }
+}
