@@ -34,6 +34,7 @@ def compare_resume_to_job(resume_info, job_info):
 Compare the following resume and job posting. Dont give much weight to the preferred skills mentioned in the job posting. Provide a detailed analysis in JSON format with the following structure:
 {{
     "match_score": number (0-100),
+    "title": "a brief title for the analysis",
     "key_strengths": ["strength1", "strength2", ...],
     "areas_for_improvement": ["area1", "area2", ...],
     "resume_suggestions": ["suggestion1", "suggestion2", ...],
